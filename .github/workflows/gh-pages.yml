@@ -43,9 +43,12 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
 
         with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          # external_repository: alexzshl/demo-project-with-outside-githubpages
+          
           publish_dir: ./public
-          external_repository: alexzshl/demo-project-with-outside-githubpages
+          
           
           
