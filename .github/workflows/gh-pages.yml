@@ -47,3 +47,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
           publish_dir: ./public
+          
+          external_repository: alexzshl/demo-project-with-outside-githubpages
+          
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
